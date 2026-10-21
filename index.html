@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <meta content="We're building a fun, friendly and privacy first community that makes it easy to socialise and benefit the planet at the same time! Join our adventure today and help us build something amazing." name="description" />
-    <meta content="sosa,friends,chat online,play online,share online,imgurians,friends,friendship,feeling lonely,meet people,imgur, discord, imgur discord" name="keywords">
+    <meta content="SoSa is a fun and friendly online community. Making friends online should be fun, free and privacy conscious so we're developing a new kind of social network." name="description" />
+    <meta content="sosa, friends, community, imgur discord" name="keywords">
     <meta content="SoSa | Fun, Friendly, Privacy First Community" property="og:title" />
     <meta content="website" property="og:type" />
     <meta content="https://sosa.net/" property="og:url" />
     <meta content="https://chatplayshare.com/themes/default/images/SoSaFullBanner3.jpg" property="og:image" />
-    <meta content="We're building a fun, friendly and privacy first community that makes it easy to socialise and benefit the planet at the same time! Join our adventure today and help us build something amazing." property="og:description" />
+    <meta content="SoSa is a fun and friendly online community. Making friends online should be fun, free and privacy conscious so we're developing a new kind of social network" property="og:description" />
     <meta content="SoSa" property="og:site_name" />
     <link rel="canonical" href="https://sosa.net" />
 
     <title>SoSa | Fun, Friendly, Privacy First Community</title>
 
     <link rel="stylesheet" href="assets/core.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-4.4.1.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-XxNLWSzCxOe/CFcHcAiJAZ7LarLmw3f4975gOO6QkxvULbGGNDoSOTzItGUG++Q+" crossorigin="anonymous">
 
     <script type="application/ld+json">
@@ -34,7 +34,7 @@
 				"https://www.linkedin.com/company/sosa-community/",
 				"https://steamcommunity.com/groups/SoSa-Community",
 				"https://youtube.com/c/SoSaCommunity",
-				"https://www.facebook.com/ChatPlayShare",
+				"https://www.facebook.com/SoSaCommunity",
 				"https://play.google.com/store/apps/details?id=com.socialsavanna",
 				"https://itunes.apple.com/us/app/sosa/id1316006181?ls=1&mt=8",
 				"https://angel.co/sosa_chat_play_share/",
@@ -51,366 +51,377 @@
 
   <body>
     <div class="container-fluid" id="top_container">
-      <nav class="navbar navbar-toggleable-md navbar-dark">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand text-center text-md-left" href="#">
-            <h1>SoSa</h1>
-        </a>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto" id="navbar_right">
-            <li class="nav-item">
-              <a href="https://blog.sosa.net" class="nav-link">
-                <i class="fal fa-newspaper"></i>
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a href="https://facebook.com/ChatPlayShare" class="nav-link" rel="nofollow noopener">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="https://twitter.com/ChatPlayShare" class="nav-link" rel="nofollow noopener">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a href="https://youtube.com/c/ChatPlayShare" class="nav-link" rel="nofollow noopener">
-                <i class="fab fa-youtube"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="https://steamcommunity.com/groups/chatplayshare" class="nav-link" rel="nofollow noopener">
-                <i class="fab fa-steam"></i>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="https://www.linkedin.com/company/sosa-community/" class="nav-link" rel="nofollow noopener">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
-          </ul>
-          <a href="http://madmimi.com/signups/de86f6eec3b842c5a05e86d89afe5e40/join" class="btn btn-outline-warning" id="login_button">Signup For Beta</a>
-        </div>
+      <nav class="navbar navbar-toggleable-md navbar-dark px-0">
+            <a class="navbar-brand text-center text-md-left" href="#">
+                <h1>SoSa</h1>
+            </a>
+            <ul class="ml-auto" id="navbar_right">
+              <li class="nav-item">
+                  <a href="https://www.patreon.com/sosa_community" class="nav-link p-0">
+                      <img src="/assets/patron_button.png" class="rounded"/>
+                  </a>
+              </li>
+            </ul>
+            
       </nav>
 
       <div class="row">
 
-        <div id="masthead_container" class="mt-2 container-fluid">
-          <div class="col-12 col-lg-8 mx-auto text-center">
-            <h1 class="mb-4">Join the adventure today!</h1>
-            <h2 class="py-1">We're building a fun, friendly and privacy first community that makes it easy to socialise and benefit the planet at the same time!</h2>
-            <h2 class="py-2">Join our adventure today and help us build something amazing.</h2>
-            <p class="pt-2">
-              <a href="https://blog.sosa.net" id="blog_link">
-                <span>SoSa</span>
-                <span>Blog</span>
-              </a>
-              <a href="https://discord.gg/26snrKr"><img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" height="50"/></a>
-            </p>
+        <div id="masthead_container" class="py-5 container-fluid">
+          <div class="col-12 col-lg-4 mx-auto text-center">
+            <h1 class="mb-4">We're building a fun,<br />friendly and privacy first community!</h1>
+            <h2 class="py-2">Making friends should be easy, fun and free so we're building SoSa! and we want you to be involved!</h2>
+            <h2>Follow our journey through our <a href="https://blog.sosa.net">blog</a>, <a href="https://www.patreon.com/sosa_community">patreon</a> or our <a href="https://discord.gg/26snrKr" rel="nofollow noopener">discord!</a></h2>
             <br />
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid pb-4 pt-3" id="beta_container">
-      <div class="container">
-        <div class="col-12 col-md-8 col-lg-6 text-center mx-auto">
-          <h2>Get Involved!</h2>
-          <p>We're rolling out the first versions of the app to our beta testers this month! sign up to our beta program to be involved :)</p>
-          <div class="col-12 col-md-12 col-lg-10 mx-auto text-center">
-            <form id="ema_signup_form" action="https://madmimi.com/signups/subscribe/de86f6eec3b842c5a05e86d89afe5e40" accept-charset="UTF-8" method="post">
-              <input name="utf8" type="hidden" value="✓"/>
-              <input type="text" name="65d434965ae48e8d0d694209023ae0d3" class="d-none"/>
-              <input type="checkbox" name="beacon" class="d-none"/>
-
-              <div class="required form-group">
-                <input id="signup_name" name="signup[name]" type="text" class="form-control mb-2" placeholder="Your name" />
-                <input id="signup_email" name="signup[email]" type="text" placeholder="Your e-mail!" class="form-control"/>
-                <input type="submit" class="w-100 mt-2 btn btn-success" value="Join Beta" id="webform_submit_button" data-default-text="Join Beta" data-submitting-text="Sending..." data-invalid-text="↑ You forgot some required fields" data-choose-list="↑ Choose a list" data-thanks="Thank you!"/>
-              </div>
-
-
-
-
-            </form>
-          </div>
+    <div class="container-fluid">
+        <div class="row pb-4">
+            <div class="col-12 col-md-6 col-lg-4 mx-auto text-center">
+                <h2>Updates</h2>
+                <p>Learn more about the journey as we re-build SoSa from the ground up!</p>
+            </div>
         </div>
-      </div>
+        
+        <div class="collapse" id="collapseExample">
+            <div class="row">
+                <div class="col-12">
+                    <h2><a href="https://blog.sosa.net/sprint-11-motion-in-the-ocean/">Sprint 11 – Motion In The Ocean</a></h2>
+                    <h5>7th June 2020</h5>
+                    <p>Wow! What a sprint! Genuinely one of my most productive in the last few months, I’ve gotten so much done that I’m not at the point I feel I can start blogging a mix between what’s been released and what i’m working on.</p>
+                    <p>Before I get started with this week’s update, I wanted to do a quick shout out to Sebastian, Rhod, Tom, Samantha, Dan and Jake!</p>
+                    <p><a href="https://blog.sosa.net/sprint-11-motion-in-the-ocean/">Read More</a>.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-among-us-tickets-108609297332">Among Us</a></h2>
+                    <h5>7th June 2020</h5>
+                    <p>Next one is Sunday 14th June 1900-2100 GMT / 1200-1400 PT / 1500-1700 ET and we will be Among Us</p>
+                    <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-among-us-tickets-108609297332">free ticket on eventbrite</a> to let us know you're coming.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2><a href="https://blog.sosa.net/sprint-10-refinement/">Sprint 10 – Refinement</a></h2>
+                    <h5>May 25th June 2020</h5>
+                    <p>I have literally no idea where the last two weeks have gone. If it weren’t for Jira, I honestly wouldn’t know I’d achieved so much this sprint!</p>
+                    <p>Everything is blending into a single, really long, coffee fueled day and it’s weird. Stop it.</p>
+                    <p><a href="https://blog.sosa.net/sprint-10-refinement/">Read More</a>.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-tickets-106628970120">Game Night - Jackbox Party</a></h2>
+                    <h5>May 25th May 2020</h5>
+                    <p>Next one is Sunday 14th June 1900-2100 GMT / 1200-1400 PT / 1500-1700 ET and we will be playing Jackbox Party</p>
+                    <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-tickets-106628970120">free ticket on eventbrite</a> to let us know you're coming.</p>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://youtu.be/h6V4p21wjWs">Video - Jackbox Party Part 1</a></h2>
+              <h5>24th May 2020</h5>
+              <p>Starting to get into a rhythm with these now! I’ve finished Part 1 of the Jackbox Party 6 video from our game night in February.</p>
+              <p>This one was a little bit more difficult to make interesting, so please be gentle and of course like and subscribe! 🙂</p>
+              <p>You can watch it here: <a href="https://youtu.be/h6V4p21wjWs">https://youtu.be/h6V4p21wjWs</a> on YouTube!</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://blog.sosa.net/sprint-9-now-in-technicolor/">Sprint 9 – Now In Technicolor</a></h2>
+              <h5>11th May 2020</h5>
+              <p>Hello girls and boys! It’s me! yo friendly neighbourhood James!</p>
+              <p>We’re going to do things a little differently this update. It felt a bit weird that everyone on the BETA were getting the updates a week after I share it everywhere else on Social media.</p>
+              <p><a href="https://blog.sosa.net/sprint-9-now-in-technicolor/">Read More</a>.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-team-fortress-2-tickets-104327759136">Game Night - Team Fortress 2</a></h2>
+              <h5>4th May 2020</h5>
+              <p>Next one is Sunday 17th May 1900-2100 GMT / 1200-1400 PT / 1500-1700 ET and we will be playing Team Fortress 2</p>
+              <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-team-fortress-2-tickets-104327759136">free ticket on eventbrite</a> to let us know you're coming.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://www.youtube.com/watch?v=t4WPut6kU-w">Video - WitchIt Part 1</a></h2>
+              <h5>4th May 2020</h5>
+              <p>Part 1 of our WitchIt game night is now live!</p>
+              <p>Follow us as delve into a world of wonder and play hide and seek as Hunter and Witch with realistic belly and boob physics!</p>
+              <p>Enjoy the wonder that are chickens as hunting devices, belly flops that weed out the enemy and @TheSire praising himself constantly.</p>
+              <p>You can watch it here: <a href="https://www.youtube.com/watch?v=t4WPut6kU-w">https://www.youtube.com/watch?v=t4WPut6kU-w</a> on YouTube!</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://blog.sosa.net/sprint-8-adventure-time/">Sprint 8 – Adventure Time!</a></h2>
+              <h5>26th April 2020</h5>
+              <p>Hello, it’s me again! James!</p>
+              <p>You’re probably wondering what i’ve been working on the last two weeks. Well take my hand and we will delve into a world of imagination!</p>
+              <p><a href="https://blog.sosa.net/sprint-8-adventure-time/">Read More</a>.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-3456-tickets-103141880140">Game Night - Jackbox Party</a></h2>
+              <h5>27th April 2020</h5>
+              <p>Next one is Sunday 3rd May 1900-2100 GMT / 1200-1400 PT / 1500-1700 ET and we will be playing Jackbox Party 3, 4, 5 and 6!</p>
+              <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-3456-tickets-103141880140">free ticket on eventbrite</a> to let us know you're coming.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://blog.sosa.net/sprint-7-corona-stole-my-title/">Sprint 7 – Corona Stole My Title</a></h2>
+              <h5>13th April 2020</h5>
+              <p>Thank you to everyone who sent me well wishes after my last update. Thankfully I feel much better now, I’m sleeping and the headaches have gone 🙂 which means I managed to get a fair amount done this sprint! 🥳</p>
+              <p>If you’re reading this, I’d love to hear from you! Let me know how you’re getting on with the current crisis 😊</p>
+              <p><a href="https://blog.sosa.net/sprint-7-corona-stole-my-title/">Read More</a>.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-trouble-in-terrorist-town-garrys-mod-tickets-102094246640">Game Night - Trouble in Terrorist Town</a></h2>
+              <h5>6th April 2020</h5>
+              <p>Next one is Sunday 19th April 1900-2100 BST / 1100-1300 PT / 1400-1600 ET and we'll be playing Trouble In Terrorist Town (Garry's Mod)</p>
+              <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-trouble-in-terrorist-town-garrys-mod-tickets-102094246640">free ticket on eventbrite</a> to let us know you're coming.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://blog.sosa.net/sprint-6-thats-a-weird-looking-patronus/">Sprint 6 – That’s a Weird Looking Patronus</a></h2>
+              <h5>29th March 2020</h5>
+              <p>Ok… so I should preface this with a few caveats…</p>
+              <ol>
+                <li>I wasn’t expecting a global pandemic to completely change the way we have to work overnight</li>
+                <li>I haven’t slept very well at all for the last 2 weeks leaving me only just enough brain power to do my day job properly</li>
+                <li>I definitely underestimated how much free time I would have.</li>
+              </ol>
+              <p><a href="https://blog.sosa.net/sprint-6-thats-a-weird-looking-patronus/">Read More</a>.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://blog.sosa.net/this-is-not-the-sprint-youre-looking-for/">This Is Not the Sprint You’re Looking For</a></h2>
+              <h5>15th March 2020</h5>
+              <p>This sprint hasn’t really been a sprint, more of a really long refinement and retrospective.</p>
+              <p>When I  came back from Prague, Corona was starting to get more media attention with speculation of a recession so I decided it was time to start looking for work. </p>
+              <p>I spent some time getting my CV together and tying up some loose ends, like end of year accounts, paper work, my tax return etc.</p>
+              <p>Remarkably, I actually secured a contract very quickly and so today as you’re reading this, i’ve already started!</p>
+              <p><a href="https://blog.sosa.net/this-is-not-the-sprint-youre-looking-for/">Read More</a>.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-3456-tickets-99010620431">Game Night - Jackbox Party</a></h2>
+              <h5>9th March 2020</h5>
+              <p>Next one is Sunday 22nd of March, 1900-2100 GMT and we'll be playing Jackbox Party 3/4/5/6!</p>
+              <p>All you need is a phone / web browser and way to watch the stream. There are limited spaces so if a lot of people sign up, we'll run separate games or take it in turns.</p>
+              <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-3456-tickets-99010620431">free ticket on eventbrite</a> to let us know you're coming.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://blog.sosa.net/sprint-5-robot-uprising/">Sprint 5 - Robot Uprising</a></h2>
+              <h5>4th March 2020</h5>
+              <p>First things first! We’re in the Alpha stores! 🥳🥳</p>
+              <p>Exciting right? But what does that actually mean?</p>
+              <p>So right now, the original Council team can install the app on their phones and break it to their heart’s content.</p>
+              <p><a href="https://blog.sosa.net/sprint-5-robot-uprising/">Read More</a>.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-murder-garrys-mod-tickets-96395819491">Game Night - Murder! (Garry's mod)</a></h2>
+              <h5>24th February 2020</h5>
+              <p>Next SoSa game night we will be playing Murder (Garry's Mod)</p>
+              <p>Sunday 8th March 1900-2100 GMT / 1200-1400 PT / 1500-1700 ET</p>
+              <p>If you've not played Murder before, you run around a spooky house, going through trap doors, hiding and trying to work out which one of you is a Murder.</p>
+              <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-murder-garrys-mod-tickets-96395819491">free ticket on eventbrite</a> to let us know you're coming.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://blog.sosa.net/cooking-with-matches/">Sprint 4 - Now We’re Cooking With Gas!</a></h2>
+              <h5>17th February 2020</h5>
+              <p>Well well well, look who we have here! I’ve been thinking about you… yes you… don’t be coy!</p>
+              <p>I want to tell you about my last two weeks, would that be ok? Great!</p>
+              <p><a href="https://blog.sosa.net/cooking-with-matches/">Read More</a>.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-witch-it-tickets-93928513713">Game Night - Witch It!</a></h2>
+              <h5>10th February 2020</h5>
+              <p>Next SoSa game night we will be playing Witch It</p>
+              <p>Sunday 23rd Feb 1900-2100 GMT / 1200-1400 PT / 1500-1700 ET</p>
+              <p>Witch It is a multiplayer hide & seek game. Brave hunters seek hidden witches in a humorous, magical world.</p>
+              <p>The Witch It world is jam-packed with humble villages, icy lakes, and ancient libraries for you to explore and hide within. Each map has its own stories and secrets for you to delve into and discover!</p>
+              <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-witch-it-tickets-93928513713">free ticket on eventbrite</a> to let us know you're coming.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://blog.sosa.net/cooking-with-matches/">Sprint 3 - Cooking with Matches!</a></h2>
+              <h5>3rd February 2020</h5>
+              <p>This sprint has been a little… fucky.</p>
+              <p>The winter has hit my mood hard and I struggled for the first week to focus. Stepping away, sleeping, working out – none of it worked. So it’s been a bit of a struggle.</p>
+              <p>I almost booked a trip to the canaries just to get some of that sun juice but the hassle of organising the trip was also apparently too much</p>
+              <p><a href="https://blog.sosa.net/cooking-with-matches/">Read More</a>.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-3456-tickets-91574761577">Game Night - Jackbox Party!</a></h2>
+              <h5>29th January 2020</h5>
+              <p>TheSire and I had a lot of fun in last nights game night thank you everyone who joined.</p>
+              <p>Next one is Sunday 9th of Feb, 1900-2100 GMT and we'll be playing Jackbox Party 3/4/5/6!</p>
+              <p>All you need is a phone / web browser and way to watch the stream. There are limited spaces so if a lot of people sign up, we'll run separate games or take it in turns.</p>
+              <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-3456-tickets-91574761577">free ticket on eventbrite</a> to let us know you're coming.</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://blog.sosa.net/nerd-ramble-sprint-2/">Sprint 2 - Nerd Ramble</a></h2>
+              <h5>22nd January 2020</h5>
+              <p>This is a technical post going into depth about the work i’ve done in the last sprint.</p>
+              <p>Tech stuff can be dry at times, so I’ll add pictures, colours, maybe some explosions – keep it interesting.</p>
+              <p>I will also over explain so non-techies can understand better, it’ll still be very technical but at-least if you’re interested in learning it won’t be completely off limits!</p>
+              <p><a href="https://blog.sosa.net/nerd-ramble-sprint-2/">Read More</a>...</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://blog.sosa.net/sosa-the-ummm-foundations/">Sprint 2 - The ummm Foundations?</a></h2>
+              <h5>20th January 2020</h5>
+              <p>Last update, I got some feedback that people didn’t get the “tech stuff” so this time I’m going to try something new and exciting! </p>
+              <p>So this article will be an overview and then i’ll do a 2nd post with much more technical stuff that will go into more detail about the code i’ve built and why i’ve made some of the choices I have so I don’t look entirely insane!</p>
+              <p><a href="https://blog.sosa.net/sosa-the-ummm-foundations/">Read More</a>...</p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+              <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-golf-with-friends-tickets-89387535525">Game Night - Golf With Friends!</a></h2>
+              <h5>11th January 2020</h5>
+              <p>Matt / TheSire and I met earlier in the week and have worked out the best way to run the game nights (for now)<p>
+              <p>They'll be run every 2 weeks on a Sunday and between 1900-2100 GMT</p>
+              <p>The first game night is Sunday 26th! We'll be playing Golf With Friends and you can <a href="https://www.eventbrite.co.uk/e/sosa-plays-golf-with-friends-tickets-89387535525">grab a ticket on eventbrite</a>.
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                  <h2><a href="https://blog.sosa.net/sosa-the-foundations/">Sprint 1 - Foundations</a></h2>
+                  <h5>6th January 2020</h5>
+                  <p>If you’re an entrepreneur you’ll probably be in a similar boat to me. Trying to do a million jobs on a tiny budget.</p>
+                  <p>Great for your startup, not so much for fortnightly updates! So I’ll try to keep these posts structured and a little ridiculous.</p>
+                  <p>There will be a combination of tech stuff, marketing stuff and general nonsense.</p>
+                  <p><a href="https://blog.sosa.net/sosa-the-foundations/">Read More</a>...</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                  <h2><a href="https://blog.sosa.net/sosa-precursor/">Sprint 0 - Precursor</a></h2>
+                  <h5>4th January 2020</h5>
+                  <p>I want to lay the foundations for who I am and why i’m here, tell you a bit of my story.<p>
+                  <p>On Monday 6th I’ll post what i’ve been working on the last 2 weeks and then you’ll see the same every 2 weeks from there 🙂... <a href="https://blog.sosa.net/sosa-precursor/">Read More</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                  <h2>The Blog Is Live!</h2>
+                  <h5>29th December 2019</h5>
+                  <p>I'm pleased to announce that the blog is live again! you can view it by visiting <a href="https://blog.sosa.net">blog.sosa.net</a> :)</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                  <h2>We're Open Source</h2>
+                  <h5>25th December 2019</h5>
+                  <p>I've always been passionate about is Open Source software and by building an open and honest community I feel we can make a really possitive impact on people's lives.</p>
+                  <p>With the re-build of SoSa, I felt it was time to start making as much of our code Open Source as possible so with that, you can find us on <a href="https://github.com/SoSa-Community">GitHub</a> where shortly repos will start appearing :)</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                  <h2>New Domains</h2>
+                  <h5>23rd December 2019</h5>
+                  <p>Along with our acquisition of SoSa.org in November, we have now purchased <a href="https://sosa.dev">sosa.dev</a> which will be used for all our developer documentation and <a href="https://sosa.help">sosa.help</a> which will be used for all user guides and how-to's.</p>
+                  <p>LonelyGiraffes.com also became available, because some imgurians might still use this it seemed sensible to buy it whilst it was cheap.</p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12">
+                  <h2>We own SoSa.org!</h2>
+                  <h5>25th November 2019</h5>
+                  <p>We've purchased and secured sosa.org, although we won't be using this as our primary domain it is important to the future success of SoSa.</p>
+                  <p>We may in the future use this for business specific groups and communities but for not it will redirect to sosa.net :)</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                  <h2>Let's Get Started!</h2>
+                  <h5>30th August 2019</h5>
+                  <p>Next week marks a year since I put SoSa on pause for health and financial reasons.</p>
+                  <p>After almost 5 years it was one of the hardest decisions i have ever had to make.</p>
+                  <p>I had to let several employees go, including Ena and in a way that should have never happened, I regret that and I know it upset a lot of the community.</p>
+                  <p>At the time I felt I had no choice left, it should have never gotten to that point, but my health took priority and the community continued in a fashion on in Discord.</p>
+                  <p>Since that night, I've had a lot of counselling, sorted out my debt and lost a considerable amount of weight.</p>
+                  <p>Now, on to the good stuff!</p>
+                  <p>After months of planning with veterans of the site, next month - I will be restarting development of a whole new SoSa.</p>
+                  <p>Two completely new mobile apps, a desktop app and website. Built properly this time, planned properly and with features you've all been suggesting over the last year.</p>
+                  <p>The aim is to relaunch next year with a beta program first to iron out any bugs.</p>
+                  <p>I'm really looking forward to getting SoSa back online and providing somewhere online to build a great community.</p>
+                  <p>Thank you to everyone that's encouraged me and supported the community over the last year. <3</p>
+                  <p>Originally posted on our <a href="https://www.facebook.com/SoSaCommunity/posts/2429224030625886">Facebook</a></p>
+                </div>
+            </div>
+        </div>
     </div>
-    <br />
-    <div class="container pt-4" id="updates_container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 mx-auto text-center">
+                <ul class="p-0" id="navbar_footer">
+                    <li class="nav-item">
+                        <a href="https://blog.sosa.net" class="nav-link">
+                            <i class="fal fa-newspaper"></i>
+                        </a>
+                    </li>
 
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-team-fortress-2-tickets-104327759136">Game Night - Team Fortress 2</a></h2>
-          <h5>4th May 2020</h5>
-          <p>Next one is Sunday 17th May 1900-2100 GMT / 1200-1400 PT / 1500-1700 ET and we will be playing Team Fortress 2</p>
-          <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-team-fortress-2-tickets-104327759136">free ticket on eventbrite</a> to let us know you're coming.</p>
-        </div>
-      </div>
+                    <li class="nav-item">
+                        <a href="https://facebook.com/SoSaCommunity" class="nav-link" rel="nofollow noopener canonical">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://twitter.com/ChatPlayShare" class="nav-link" rel="nofollow noopener canonical">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
 
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://www.youtube.com/watch?v=t4WPut6kU-w">Video - WitchIt Part 1</a></h2>
-          <h5>4th May 2020</h5>
-          <p>Part 1 of our WitchIt game night is now live!</p>
-          <p>Follow us as delve into a world of wonder and play hide and seek as Hunter and Witch with realistic belly and boob physics!</p>
-          <p>Enjoy the wonder that are chickens as hunting devices, belly flops that weed out the enemy and @TheSire praising himself constantly.</p>
-          <p>You can watch it here: <a href="https://www.youtube.com/watch?v=t4WPut6kU-w">https://www.youtube.com/watch?v=t4WPut6kU-w</a> on YouTube!</p>
+                    <li class="nav-item">
+                        <a href="https://youtube.com/c/ChatPlayShare" class="nav-link" rel="nofollow noopener canonical">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://steamcommunity.com/groups/chatplayshare" class="nav-link" rel="nofollow noopener canonical">
+                            <i class="fab fa-steam"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://www.linkedin.com/company/sosa-community/" class="nav-link" rel="nofollow noopener canonical">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://blog.sosa.net/sprint-8-adventure-time/">Sprint 8 – Adventure Time!</a></h2>
-          <h5>26th April 2020</h5>
-          <p>Hello, it’s me again! James!</p>
-          <p>You’re probably wondering what i’ve been working on the last two weeks. Well take my hand and we will delve into a world of imagination!</p>
-          <p><a href="https://blog.sosa.net/sprint-8-adventure-time/">Read More</a>.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-3456-tickets-103141880140">Game Night - Jackbox Party</a></h2>
-          <h5>27th April 2020</h5>
-          <p>Next one is Sunday 3rd May 1900-2100 GMT / 1200-1400 PT / 1500-1700 ET and we will be playing Jackbox Party 3, 4, 5 and 6!</p>
-          <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-3456-tickets-103141880140">free ticket on eventbrite</a> to let us know you're coming.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://blog.sosa.net/sprint-7-corona-stole-my-title/">Sprint 7 – Corona Stole My Title</a></h2>
-          <h5>13th April 2020</h5>
-          <p>Thank you to everyone who sent me well wishes after my last update. Thankfully I feel much better now, I’m sleeping and the headaches have gone 🙂 which means I managed to get a fair amount done this sprint! 🥳</p>
-          <p>If you’re reading this, I’d love to hear from you! Let me know how you’re getting on with the current crisis 😊</p>
-          <p><a href="https://blog.sosa.net/sprint-7-corona-stole-my-title/">Read More</a>.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-trouble-in-terrorist-town-garrys-mod-tickets-102094246640">Game Night - Trouble in Terrorist Town</a></h2>
-          <h5>6th April 2020</h5>
-          <p>Next one is Sunday 19th April 1900-2100 BST / 1100-1300 PT / 1400-1600 ET and we'll be playing Trouble In Terrorist Town (Garry's Mod)</p>
-          <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-trouble-in-terrorist-town-garrys-mod-tickets-102094246640">free ticket on eventbrite</a> to let us know you're coming.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://blog.sosa.net/sprint-6-thats-a-weird-looking-patronus/">Sprint 6 – That’s a Weird Looking Patronus</a></h2>
-          <h5>29th March 2020</h5>
-          <p>Ok… so I should preface this with a few caveats…</p>
-          <ol>
-            <li>I wasn’t expecting a global pandemic to completely change the way we have to work overnight</li>
-            <li>I haven’t slept very well at all for the last 2 weeks leaving me only just enough brain power to do my day job properly</li>
-            <li>I definitely underestimated how much free time I would have.</li>
-          </ol>
-          <p><a href="https://blog.sosa.net/sprint-6-thats-a-weird-looking-patronus/">Read More</a>.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://blog.sosa.net/this-is-not-the-sprint-youre-looking-for/">This Is Not the Sprint You’re Looking For</a></h2>
-          <h5>15th March 2020</h5>
-          <p>This sprint hasn’t really been a sprint, more of a really long refinement and retrospective.</p>
-          <p>When I  came back from Prague, Corona was starting to get more media attention with speculation of a recession so I decided it was time to start looking for work. </p>
-          <p>I spent some time getting my CV together and tying up some loose ends, like end of year accounts, paper work, my tax return etc.</p>
-          <p>Remarkably, I actually secured a contract very quickly and so today as you’re reading this, i’ve already started!</p>
-          <p><a href="https://blog.sosa.net/this-is-not-the-sprint-youre-looking-for/">Read More</a>.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-3456-tickets-99010620431">Game Night - Jackbox Party</a></h2>
-          <h5>9th March 2020</h5>
-          <p>Next one is Sunday 22nd of March, 1900-2100 GMT and we'll be playing Jackbox Party 3/4/5/6!</p>
-          <p>All you need is a phone / web browser and way to watch the stream. There are limited spaces so if a lot of people sign up, we'll run separate games or take it in turns.</p>
-          <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-3456-tickets-99010620431">free ticket on eventbrite</a> to let us know you're coming.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://blog.sosa.net/sprint-5-robot-uprising/">Sprint 5 - Robot Uprising</a></h2>
-          <h5>4th March 2020</h5>
-          <p>First things first! We’re in the Alpha stores! 🥳🥳</p>
-          <p>Exciting right? But what does that actually mean?</p>
-          <p>So right now, the original Council team can install the app on their phones and break it to their heart’s content.</p>
-          <p><a href="https://blog.sosa.net/sprint-5-robot-uprising/">Read More</a>.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-murder-garrys-mod-tickets-96395819491">Game Night - Murder! (Garry's mod)</a></h2>
-          <h5>24th February 2020</h5>
-          <p>Next SoSa game night we will be playing Murder (Garry's Mod)</p>
-          <p>Sunday 8th March 1900-2100 GMT / 1200-1400 PT / 1500-1700 ET</p>
-          <p>If you've not played Murder before, you run around a spooky house, going through trap doors, hiding and trying to work out which one of you is a Murder.</p>
-          <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-murder-garrys-mod-tickets-96395819491">free ticket on eventbrite</a> to let us know you're coming.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://blog.sosa.net/cooking-with-matches/">Sprint 4 - Now We’re Cooking With Gas!</a></h2>
-          <h5>17th February 2020</h5>
-          <p>Well well well, look who we have here! I’ve been thinking about you… yes you… don’t be coy!</p>
-          <p>I want to tell you about my last two weeks, would that be ok? Great!</p>
-          <p><a href="https://blog.sosa.net/cooking-with-matches/">Read More</a>.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-witch-it-tickets-93928513713">Game Night - Witch It!</a></h2>
-          <h5>10th February 2020</h5>
-          <p>Next SoSa game night we will be playing Witch It</p>
-          <p>Sunday 23rd Feb 1900-2100 GMT / 1200-1400 PT / 1500-1700 ET</p>
-          <p>Witch It is a multiplayer hide & seek game. Brave hunters seek hidden witches in a humorous, magical world.</p>
-          <p>The Witch It world is jam-packed with humble villages, icy lakes, and ancient libraries for you to explore and hide within. Each map has its own stories and secrets for you to delve into and discover!</p>
-          <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-witch-it-tickets-93928513713">free ticket on eventbrite</a> to let us know you're coming.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://blog.sosa.net/cooking-with-matches/">Sprint 3 - Cooking with Matches!</a></h2>
-          <h5>3rd February 2020</h5>
-          <p>This sprint has been a little… fucky.</p>
-          <p>The winter has hit my mood hard and I struggled for the first week to focus. Stepping away, sleeping, working out – none of it worked. So it’s been a bit of a struggle.</p>
-          <p>I almost booked a trip to the canaries just to get some of that sun juice but the hassle of organising the trip was also apparently too much</p>
-          <p><a href="https://blog.sosa.net/cooking-with-matches/">Read More</a>.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-3456-tickets-91574761577">Game Night - Jackbox Party!</a></h2>
-          <h5>29th January 2020</h5>
-          <p>TheSire and I had a lot of fun in last nights game night thank you everyone who joined.</p>
-          <p>Next one is Sunday 9th of Feb, 1900-2100 GMT and we'll be playing Jackbox Party 3/4/5/6!</p>
-          <p>All you need is a phone / web browser and way to watch the stream. There are limited spaces so if a lot of people sign up, we'll run separate games or take it in turns.</p>
-          <p>Grab a <a href="https://www.eventbrite.co.uk/e/sosa-plays-jack-box-party-3456-tickets-91574761577">free ticket on eventbrite</a> to let us know you're coming.</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://blog.sosa.net/nerd-ramble-sprint-2/">Sprint 2 - Nerd Ramble</a></h2>
-          <h5>22nd January 2020</h5>
-          <p>This is a technical post going into depth about the work i’ve done in the last sprint.</p>
-          <p>Tech stuff can be dry at times, so I’ll add pictures, colours, maybe some explosions – keep it interesting.</p>
-          <p>I will also over explain so non-techies can understand better, it’ll still be very technical but at-least if you’re interested in learning it won’t be completely off limits!</p>
-          <p><a href="https://blog.sosa.net/nerd-ramble-sprint-2/">Read More</a>...</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://blog.sosa.net/sosa-the-ummm-foundations/">Sprint 2 - The ummm Foundations?</a></h2>
-          <h5>20th January 2020</h5>
-          <p>Last update, I got some feedback that people didn’t get the “tech stuff” so this time I’m going to try something new and exciting! </p>
-          <p>So this article will be an overview and then i’ll do a 2nd post with much more technical stuff that will go into more detail about the code i’ve built and why i’ve made some of the choices I have so I don’t look entirely insane!</p>
-          <p><a href="https://blog.sosa.net/sosa-the-ummm-foundations/">Read More</a>...</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://www.eventbrite.co.uk/e/sosa-plays-golf-with-friends-tickets-89387535525">Game Night - Golf With Friends!</a></h2>
-          <h5>11th January 2020</h5>
-          <p>Matt / TheSire and I met earlier in the week and have worked out the best way to run the game nights (for now)<p>
-          <p>They'll be run every 2 weeks on a Sunday and between 1900-2100 GMT</p>
-          <p>The first game night is Sunday 26th! We'll be playing Golf With Friends and you can <a href="https://www.eventbrite.co.uk/e/sosa-plays-golf-with-friends-tickets-89387535525">grab a ticket on eventbrite</a>.
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://blog.sosa.net/sosa-the-foundations/">Sprint 1 - Foundations</a></h2>
-          <h5>6th January 2020</h5>
-          <p>If you’re an entrepreneur you’ll probably be in a similar boat to me. Trying to do a million jobs on a tiny budget.</p>
-          <p>Great for your startup, not so much for fortnightly updates! So I’ll try to keep these posts structured and a little ridiculous.</p>
-          <p>There will be a combination of tech stuff, marketing stuff and general nonsense.</p>
-          <p><a href="https://blog.sosa.net/sosa-the-foundations/">Read More</a>...</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2><a href="https://blog.sosa.net/sosa-precursor/">Sprint 0 - Precursor</a></h2>
-          <h5>4th January 2020</h5>
-          <p>I want to lay the foundations for who I am and why i’m here, tell you a bit of my story.<p>
-          <p>On Monday 6th I’ll post what i’ve been working on the last 2 weeks and then you’ll see the same every 2 weeks from there 🙂... <a href="https://blog.sosa.net/sosa-precursor/">Read More</a></p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2>The Blog Is Live!</h2>
-          <h5>29th December 2019</h5>
-          <p>I'm pleased to announce that the blog is live again! you can view it by visiting <a href="https://blog.sosa.net">blog.sosa.net</a> :)</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2>We're Open Source</h2>
-          <h5>25th December 2019</h5>
-          <p>I've always been passionate about is Open Source software and by building an open and honest community I feel we can make a really possitive impact on people's lives.</p>
-          <p>With the re-build of SoSa, I felt it was time to start making as much of our code Open Source as possible so with that, you can find us on <a href="https://github.com/SoSa-Community">GitHub</a> where shortly repos will start appearing :)</p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-12">
-          <h2>New Domains</h2>
-          <h5>23rd December 2019</h5>
-          <p>Along with our acquisition of SoSa.org in November, we have now purchased <a href="https://sosa.dev">sosa.dev</a> which will be used for all our developer documentation and <a href="https://sosa.help">sosa.help</a> which will be used for all user guides and how-to's.</p>
-          <p>LonelyGiraffes.com also became available, because some imgurians might still use this it seemed sensible to buy it whilst it was cheap.</p>
-        </div>
-      </div>
-      <div class="row mb-4">
-        <div class="col-12">
-          <h2>We own SoSa.org!</h2>
-          <h5>25th November 2019</h5>
-          <p>We've purchased and secured sosa.org, although we won't be using this as our primary domain it is important to the future success of SoSa.</p>
-          <p>We may in the future use this for business specific groups and communities but for not it will redirect to sosa.net :)</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12">
-          <h2>Let's Get Started!</h2>
-          <h5>30th August 2019</h5>
-          <p>Next week marks a year since I put SoSa on pause for health and financial reasons.</p>
-          <p>After almost 5 years it was one of the hardest decisions i have ever had to make.</p>
-          <p>I had to let several employees go, including Ena and in a way that should have never happened, I regret that and I know it upset a lot of the community.</p>
-          <p>At the time I felt I had no choice left, it should have never gotten to that point, but my health took priority and the community continued in a fashion on in Discord.</p>
-          <p>Since that night, I've had a lot of counselling, sorted out my debt and lost a considerable amount of weight.</p>
-          <p>Now, on to the good stuff!</p>
-          <p>After months of planning with veterans of the site, next month - I will be restarting development of a whole new SoSa.</p>
-          <p>Two completely new mobile apps, a desktop app and website. Built properly this time, planned properly and with features you've all been suggesting over the last year.</p>
-          <p>The aim is to relaunch next year with a beta program first to iron out any bugs.</p>
-          <p>I'm really looking forward to getting SoSa back online and providing somewhere online to build a great community.</p>
-          <p>Thank you to everyone that's encouraged me and supported the community over the last year. <3</p>
-          <p>Originally posted on our <a href="https://www.facebook.com/ChatPlayShare/posts/2429224030625886">Facebook</a></p>
-        </div>
-      </div>
     </div>
-
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48468535-5"></script>
     <script>
@@ -420,26 +431,5 @@
 
         gtag('config', 'UA-48468535-5');
     </script>
-
-
-    <!-- Facebook Pixel Code -->
-    <script>
-        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-            document,'script','https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '829987933777096', {});
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=829987933777096&ev=PageView&noscript=1"/></noscript>
-
-    <!-- Start Alexa Certify Javascript -->
-    <script type="text/javascript">
-        _atrk_opts = { atrk_acct:"kIORm1aMp4Z3Io", domain:"sosa.net",dynamic: true};
-        (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
-    </script>
-    <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=kIORm1aMp4Z3Io" style="display:none" height="1" width="1" alt="" /></noscript>
-
   </body>
 </html>

@@ -47,12 +47,31 @@ footer ul li{
 }
 
 #top_container{
-    background-image: url(facesfull.jpg);
-    background-size: 50%;
+    background-image: url(background2k.jpg);
+    background-position: 50% 65%;
+    background-size: 250%;
+}
+
+@media (min-width: 576px) {
+    #top_container{background-size: 175%;}
+}
+@media (min-width: 768px) {
+    #top_container{background-size: 125%;}
+}
+
+@media (min-width: 1200px) {
+    #top_container{background-size: 100%;}
+}
+
+@media (min-width: 1408px) {
+    #top_container{
+        background-image: url(background4k.jpg);
+        background-size: 100%;
+    }
 }
 
 #top_container a{
-    color:#fff;
+    color:#7ac256;
 }
 
 #top_container .navbar-brand h1{
@@ -77,29 +96,9 @@ footer ul li{
     border-radius:1.2rem;
 }
 
-#blog_link {
-    display:inline-block;
-
-}
-
-/* iPhone 5S looks weird otherwise */
-@media (min-width: 360px) {
-    #blog_link {
-        padding-right: 1em;
-        margin-right: 0.5em;
-        border-right: 1px solid #ccc;
-    }
-}
-
-
 #blog_link span {font-size: 1.75rem;}
-
 #blog_link span:first-child {
     font-family: "koch_geometricmedium", "Myriad Pro", Arial;
-}
-
-#blog_link span:last-child {
-    font-family: "koch_geometricregular", "Myriad Pro", Arial;
 }
 
 button{
@@ -112,13 +111,19 @@ button{
 
 .nav-item .nav-link {padding: 0 1em;}
 
-#navbar_right .nav-item {
-    margin-right: 0.5em;
+#navbar_footer{
+    list-style: none;
 }
 
-#navbar_right .nav-item .nav-link i{
+#navbar_footer .nav-item {
+    margin-right: 0.25em;
+    display:inline-block;
+    text-align:center;
+}
+
+#navbar_footer .nav-item .nav-link i{
     font-size:1.75em;
-    color: #ccc;
+    color: #444442;
 }
 
 #top_container h1, #top_container h2, #top_container h3, #top_container h4, #top_container h5 {
@@ -142,4 +147,39 @@ button{
 #beta_container {
     color: #fff;
     background: #121211;
+}
+
+.post-card{
+    border:0;
+    background:none;
+    min-height: 58vh;
+}
+
+.post-card {
+    color:#fff;
+}
+
+.post-card a, .post-card a:hover {
+    color: #fff;
+}
+
+.post-card .card-body{
+    background: #444442;
+    font-size: 95%;
+}
+
+.post-card .card-text-small{
+    font-size: 90%;
+    font-weight: 400;
+}
+
+.post-block-read-more {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#navbar_right {
+    list-style: none;
+    padding:0;
+    text-align: right;
 }

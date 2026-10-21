@@ -60,19 +60,32 @@ footer ul li{
 }
 
 @media (min-width: 1200px) {
-    /* Show the whole 1920x1013 / 3840x2025 artwork rather than cropping it
-       to the text height; masthead sits vertically centred over it. */
-    #top_container{
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 52.76vw;
-        display: flex;
-        flex-direction: column;
-    }
-    #top_container > .row{
-        flex: 1;
-        align-items: center;
-    }
+    #top_container{background-size: 100%;}
+}
+
+#top_container{
+    position: relative;
+    border-bottom: 2px solid #121211;
+}
+
+/* Nav floats over the artwork so the text box is centred in the whole hero. */
+#top_container .navbar{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 15px;
+    z-index: 1;
+}
+
+#masthead_container{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+#masthead_container > div{
+    background: #121211;
+    padding: 16px;
+    border-radius: 16px;
 }
 
 @media (min-width: 1408px) {

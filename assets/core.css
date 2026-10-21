@@ -60,7 +60,19 @@ footer ul li{
 }
 
 @media (min-width: 1200px) {
-    #top_container{background-size: 100%;}
+    /* Show the whole 1920x1013 / 3840x2025 artwork rather than cropping it
+       to the text height; masthead sits vertically centred over it. */
+    #top_container{
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 52.76vw;
+        display: flex;
+        flex-direction: column;
+    }
+    #top_container > .row{
+        flex: 1;
+        align-items: center;
+    }
 }
 
 @media (min-width: 1408px) {
